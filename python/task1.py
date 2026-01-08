@@ -20,3 +20,10 @@ gender = "male"
 weight = 57.5
 age = 19
 
+print("Name:", name)
+print("Address:", address)
+print("City:", city)
+print("Pincode:", pincode)
+print("Gender:", gender)
+print("Weight:", weight, "kg")
+print("Age:", age, "years")

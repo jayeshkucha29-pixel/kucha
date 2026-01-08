@@ -12,3 +12,4 @@ height=int(height)
 Area=0.5*bas*height
 
 print("Area of the triangle is:",Area)
+
