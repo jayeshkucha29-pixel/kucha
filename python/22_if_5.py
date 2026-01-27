@@ -1,0 +1,32 @@
+''' 
+write a program to accept day of week (between 1 to 7) and then display name of day. (use simple if decision making)
+            input 1 : monday 
+            input 2 : tuesday 
+            input 7 : sunday 
+'''
+
+day=int(input("enter the day number=="))
+
+if day==1:
+    print("monday")
+
+if day==2:
+    print("Tuesday")
+
+if day==3:
+    print("Wednesday")
+
+if day==4:
+    print("Thursday")
+
+if day == 5:
+    print("Friday")
+
+if day == 6:
+    print("Saturday")
+
+if day == 7:
+    print("Sunday")
+
+if day > 7 or day == 0:
+    print("is number is not valiad plz enter number the 1 to 7 :")

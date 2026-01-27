@@ -2,9 +2,10 @@
 
 fruits = ["apple", "banana", "mango", "orange", "grapes", "pineapple", "papaya", "watermelon", "strawberry", "kiwi"]
 print(fruits) 
+
 favorite_fruit = input("what is your favorite fruit name")
 isFound = favorite_fruit in fruits
-print(isFound)
+print(isFound) 
 
 isNOTFound = favorite_fruit not in fruits 
 print(isNOTFound)
@@ -34,8 +35,4 @@ isFound = country in countries
 print(isFound)
 
 isNotFound = country not in countries
-print(isNotFound)
-
-
-
-
+print(isNotFound) 
